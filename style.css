@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: #d3f7f0;
+    margin:0 auto;
+    padding: 20px;
+    
+    
+}
+header{
+
+}
+.profile-pic{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    float: left;
+
+}
+.header-bio{
+    float: left;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.clear{
+    clear: both;
+}
+hr{
+    border: solid black 2px;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+
+}
+/*............
+Personal Section
+...............*/
+
+.personal-section{
+
+}
+.content{
+
+}
+.left-content{
+    float: left;
+    width: 30%;
+    
+
+}
+.right-content{
+    float: left;
+    width: 70%;
+
+}
+.common-hr{
+    border: solid gray 1px;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+    
+}
+/*............
+Education Section
+...............*/
+.education-section{
+
+}
+
+.education-left{
+    float: left;
+    width: 45%;
+
+}
+.education-right{
+    float: right;
+    width: 45%;
+    
+}
+/*............
+Reference Start
+...............*/
+
+.reference-left{
+    float: left;
+    width: 45%;
+}
+.reference-right{
+    float: left;
+    width: 45%;
+
+}
+/*............
+footer start
+...............*/
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+}
+.bottom-container p{
+    
+    color: #fff;
+    margin-top: 20px;
+}
+.bottom-container a:hover{
+    text-decoration: underline;
+    color: palevioletred;
+}
